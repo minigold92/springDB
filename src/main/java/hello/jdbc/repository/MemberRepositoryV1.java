@@ -12,7 +12,7 @@ import java.util.NoSuchElementException;
 
 /**
  * JDBC - DataSource 사용, JdbcUtils 사용
- * DataSource는 Connection 획득 방법을 추상화한다.
+ * DataSource는 Connection 획득하는 방법을 추상화한다.
  * getConnection() 메서드가 메인.
  */
 @Slf4j
