@@ -20,6 +20,7 @@ import java.util.NoSuchElementException;
 public class MemberRepositoryV3 {
 
     private final DataSource dataSource;
+
     private Connection getConnection() throws SQLException {
         //트랜잭션 동기화를 사용하려면 DataSourceUtils를 사용해야한다.
         Connection con = DataSourceUtils.getConnection(dataSource);
